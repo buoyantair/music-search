@@ -17,6 +17,7 @@ class RelatedArtists extends Component{
                       ()=>{
                         this.props.search(artist.name);
                         this.props.getArtist();
+                        window.scroll(0,0);
                       }
                     }
                     className="artist"
